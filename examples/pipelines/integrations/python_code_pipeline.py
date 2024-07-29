@@ -39,6 +39,7 @@ class Pipeline:
         # This is where you can add your custom pipelines like RAG.
         print(f"pipe:{__name__}")
 
+        print(f"{body=}")
         print(messages)
         print(user_message)
 
